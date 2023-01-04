@@ -5,12 +5,12 @@ var app = express();
 var PORT = process.env.PORT || 3000;
 
 app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/theme/index.html");
+  res.sendFile(__dirname + "/index.html");
   }
 );
 
-app.use(express.static(__dirname + "/theme"));
-app.use(__dirname, express.static(__dirname + '/theme'));
+app.use(express.static(__dirname));
+app.use(__dirname, express.static(__dirname));
 
 
 
