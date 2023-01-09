@@ -4,6 +4,7 @@
 @media (min-width: 1280px) {
 
   .navbar {
+    background-color: var(--color-secondary);
     padding: 0;
     position: relative;
     ul {
@@ -30,7 +31,8 @@
       font-family: var(--font-secondary);
       font-size: 16px; 
       font-weight: 400;
-      color: rgba(var(--color-secondary-dark-rgb), .7);
+      // color: rgba(var(--color-secondary-dark-rgb), .7);
+      color: var(--color-default);
       white-space: nowrap;
       transition: 0.3s;
       position: relative;
@@ -49,7 +51,7 @@
       height: 2px;
       bottom: 0;
       left: 0;
-      background-color: var(--color-primary);
+      background-color: var(--color-default);
       visibility: hidden;
       transition: all 0.3s ease-in-out 0s;
       transform: scaleX(0);
@@ -62,7 +64,7 @@
     }
   
     a:hover, .active, .active:focus, li:hover > a  {
-      color: var(--color-primary);
+      color: var(--color-default);
     }
   
     .dropdown {
@@ -73,7 +75,7 @@
     
       a:hover, .active, .active:focus, &:hover > a  {
         color: var(--color-white);
-        background: var(--color-secondary);
+        background: var(--color-default);
       }
   
       ul {
@@ -106,7 +108,7 @@
   
         a:hover, .active, .active:hover, li:hover > a {
           color: var(--color-white);
-          background: var(--color-primary);
+          background: var(--color-default);
         }
   
       }
@@ -133,7 +135,7 @@
           }
           a:hover, .active, .active:hover {
             color: var(--color-white);
-            background: var(--color-primary);
+            background: var(--color-default);
           }
         }
 

@@ -29,28 +29,29 @@
   /* The *-rgb color names are simply the RGB converted value of the corresponding color for use in the rgba() function */
 
   /* Default text color */
-  --color-default: #1a1f24;
-  --color-default-rgb: 26, 31, 36;
+  --color-default: #b1dd40;
+  --color-default-rgb: 177, 221, 64;
 
   /* Defult links color */
   --color-links: #0ea2bd;
   --color-links-hover: #1ec3e0;
 
   /* Primay colors */
-  --color-primary: #0ea2bd;
+  /* --color-primary: #0ea2bd; */
+  --color-primary: #111606;
   --color-primary-light: #1ec3e0;
   --color-primary-dark: #0189a1;
 
-  --color-primary-rgb: 14, 162, 189;
+  --color-primary-rgb: 17, 22, 6;
   --color-primary-light-rgb: 30, 195, 224;
   --color-primary-dark-rgb: 1, 137, 161;
 
   /* Secondary colors */
-  --color-secondary: #485664;
+  --color-secondary: #151a0b;
   --color-secondary-light: #8f9fae;
   --color-secondary-dark: #3a4753;
 
-  --color-secondary-rgb: 72, 86, 100;
+  --color-secondary-rgb: 21, 26, 11;
   --color-secondary-light-rgb: 143, 159, 174;
   --color-secondary-dark-rgb: 58, 71, 83;
 
@@ -76,8 +77,8 @@
   --color-yellow: #ffc107;
   --color-yellow-rgb: 255, 193, 7;
 
-  --color-green: #059652;
-  --color-green-rgb: 5, 150, 82;
+  --color-green: #B1dd40;
+  --color-green-rgb: 177, 221, 64;
 
   --color-teal: #20c997;
   --color-teal-rgb: 32, 201, 151;
@@ -85,7 +86,7 @@
   --color-cyan: #0dcaf0;
   --color-cyan-rgb: 13, 202, 240;
 
-  --color-white: #ffffff;
+  --color-white: #Fdffe5;
   --color-white-rgb: 255, 255, 255;
 
   --color-gray: #6c757d;

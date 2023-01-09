@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "scss": "node-sass --watch assets/scss -o assets/css"
+
   },
   "repository": {
     "type": "git",
@@ -31,6 +33,8 @@
   "homepage": "https://github.com/MattGDwyer/wehea#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "node": "^19.3.0"
+    "node": "^19.3.0",
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1"
   }
 }
